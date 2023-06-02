@@ -1,4 +1,13 @@
 # Breast-cancer-diagnosis-using-Machine-Learning
+
+Breast cancer is the second leading cause of cancer death in women. (Only lung cancer kills more women each year.) The chance that a woman will die from breast cancer is about 1 in 39 (about 2.5%).
+Breast cancer death rates have been decreasing steadily since 1989, for an overall decline of 43% through 2020. The decrease in death rates is believed to be the result of finding breast cancer earlier through screening and increased awareness, as well as better treatments. However, the decline has slowed slightly in recent years.
+<p>For this reason I am conducting this project to be able to predict the early onset of breast cancer and whether it is malignant or benign.</p>
+<p>The project portfolio will not solve curing phase of cancer rather early onset prediction and predetermination of cancer.</p></br>
+<p>The project portfolio will help women particularly as they are the target pool that are highly at risk for breast cancer</p>.</br>
+This project is relevant for a worldwide use for all women to benefit from.
+
+
 Machine learning is widely used in bio informatics and particularly in breast cancer diagnosis.
 In this project, we have used certain classification methods such as K-nearest neighbors (K-NN) and Support Vector Machine (SVM) which is a supervised learning method to detect breast cancer. 
 Cancer diagnosis is one of the most studied problems in the medical domain.
