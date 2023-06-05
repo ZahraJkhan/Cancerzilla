@@ -10,7 +10,7 @@ def get_model()->Pipeline:
     Input: model path 
     Output: model 
     """
-    model_path = os.environ.get('MODEL_PATH', 'models/model.pkl')
+    model_path = os.environ.get('MODEL_PATH', 'models/model.pkl.dvc')
     with open(model_path, 'rb') as model_file:
         model = load(BytesIO(model_file.read()))
     return model
