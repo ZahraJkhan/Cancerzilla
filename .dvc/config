@@ -1,8 +1,0 @@
-['remote "data-track"']
-    url = gs://bcp-model-data-tracker/data
-['remote "models-track"']
-    url = gs://models-data-tracker/models
-['remote "d-track"']
-    url = gs://bcp-model-dataset-tracker/data
-['remote "m-track"']
-    url = gs://bcp-model-dataset-tracker/model
