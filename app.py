@@ -8,7 +8,7 @@ model = pickle.load(open('model.pkl', 'rb'))
 scaler = pickle.load(open('scaler.pkl', 'rb'))
 
 
-@app.route('/foobar')
+@app.route('/')
 def home():
     return render_template('index.html')
 
@@ -42,4 +42,4 @@ def predict_api():
     return jsonify(output)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True, use_reloader=True)
