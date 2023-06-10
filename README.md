@@ -1,6 +1,8 @@
-# ![d1d3d21d0e0843fcb7b943f795436d7c](https://github.com/ZahraJkhan/Cancerzilla/assets/9038851/9c54781e-0920-48ff-8f73-b6fbdccbb62a)  #CANCERZILLA
+# ![d1d3d21d0e0843fcb7b943f795436d7c](https://github.com/ZahraJkhan/Cancerzilla/assets/9038851/9c54781e-0920-48ff-8f73-b6fbdccbb62a)  
 
-#Breast-cancer-prediction-application-using-Machine-Learning
+# CANCERZILLA
+
+# Breast-cancer-prediction-application-using-Machine-Learning
 
 Breast cancer is the second leading cause of cancer death in women. (Only lung cancer kills more women each year.) The chance that a woman will die from breast cancer is about 1 in 39 (about 2.5%).
 Breast cancer death rates have been decreasing steadily since 1989, for an overall decline of 43% through 2020. The decrease in death rates is believed to be the result of finding breast cancer earlier through screening and increased awareness, as well as better treatments. However, the decline has slowed slightly in recent years.
