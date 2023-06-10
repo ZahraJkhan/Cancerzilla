@@ -1,6 +1,6 @@
 # ![d1d3d21d0e0843fcb7b943f795436d7c](https://github.com/ZahraJkhan/Cancerzilla/assets/9038851/9c54781e-0920-48ff-8f73-b6fbdccbb62a)  #CANCERZILLA
 
-Breast-cancer-prediction-application-using-Machine-Learning
+#Breast-cancer-prediction-application-using-Machine-Learning
 
 Breast cancer is the second leading cause of cancer death in women. (Only lung cancer kills more women each year.) The chance that a woman will die from breast cancer is about 1 in 39 (about 2.5%).
 Breast cancer death rates have been decreasing steadily since 1989, for an overall decline of 43% through 2020. The decrease in death rates is believed to be the result of finding breast cancer earlier through screening and increased awareness, as well as better treatments. However, the decline has slowed slightly in recent years.
@@ -10,29 +10,61 @@ Breast cancer death rates have been decreasing steadily since 1989, for an overa
 This project is relevant for a worldwide use for all women to benefit from.
 
 
-Machine learning is widely used in bio informatics and particularly in breast cancer diagnosis.
-In this project, we have used certain classification methods such as K-nearest neighbors (K-NN) and Support Vector Machine (SVM) which is a supervised learning method to detect breast cancer. 
-Cancer diagnosis is one of the most studied problems in the medical domain.
-Several researchers have focused in order to improve performance and achieved to obtain satisfactory results.
-Early detection of cancer is essential for a rapid response and better chances of cure. 
-Unfortunately, early detection of cancer is often difﬁcult because the symptoms of the disease at the beginning are absent.
-Thus, it is necessary to discover and interpret new knowledge to prevent and minimize the risk adverse consequences.
+<p>CancerZilla is a web-based application developed for breast cancer prediction. It utilizes machine learning techniques to provide accurate predictions based on various patient data inputs. This repository contains the source code and necessary resources for the CancerZilla web application.</p></br>
+
+<h1>Features</h1>
+ - Breast Cancer Prediction: CancerZilla predicts the likelihood of breast cancer based on input data, such as medical imaging (e.g., mammograms), patient demographics, and pathology reports.
+
+ - User-Friendly Interface: The web application provides an intuitive and user-friendly interface for inputting and submitting patient data, displaying predictions, and visualizing the results.
+
+ - High Accuracy: CancerZilla employs advanced machine learning algorithms and models trained on large and diverse datasets to deliver accurate breast cancer predictions.
+
+## Languages or Frameworks Used 
+
+  * Python: language
+  * NumPy: library for numerical calculations
+  * Pandas: library for data manipulation and analysis
+  * SkLearn: library which features various classification, regression and clustering algorithms
+  * Flask: microframework for building web applications using Python.
+
+<h2>Installation</h2>
+Follow these steps to set up and run the CancerZilla web application locally:
+
+Clone the repository:</br>
+git clone https://github.com/ZahraJkhan/cancerzilla.git<br>
+
+Install the required dependencies using pip:
+
+pip install -r requirements.txt
+
+Start the web application:
+
+python app.py
+
+Access the CancerZilla application by opening your web browser and navigating to http://localhost:5000.
+
+<h1>Usage</h1>
+
+* Open the CancerZilla web application in your web browser.
+
+* Fill in the required information for the patient.
+
+* Click the "Predict" button to initiate the breast cancer prediction process.
+
+* CancerZilla will process the provided data and display the prediction results on the screen.
 
 
-To understand this problem more precisely, tools are needed to help oncologists to choose
-the treatment required for healing or prevention of recurrence by reducing the harmful effects of certain treatments and their costs. 
-In artiﬁcial intelligent, machine learning is a discipline which allows the machine to evolve through a process.
-Wisconsin Diagnostic Breast Cancer (WDBC) dataset obtained by the university of Wisconsin Hospital is used to classify tumors as benign or malignant.
+<h2>Contributing</h2>
+<p>Contributions to CancerZilla are welcome! If you have any suggestions, bug reports, or feature requests, please create an issue in the GitHub repository. You can also submit pull requests to propose changes or enhancements.
 
-#k- Nearest Neighbour (k-NN) classification technique:
+<p>Before making a contribution, please review the contribution guidelines for detailed instructions.
 
+<h3>License</h3>
+This project is licensed under the MIT License.
 
-k-NN is a non- parametric method used for classification. In this classification, the output is a class membership.
-An object is classified by a majority vote of its neighbors,
-with the object being assigned to the class most common among its k nearest neighbors (k is a positive integer, typically small). 
-If k = 1, then the object is simply assigned to the class of that single nearest neighbor. It is the simplest algorithm among all the machine learning algorithms.
+<h3>Acknowledgments</h3>
+We would like to express our gratitude to the open-source community for providing valuable resources and libraries that contributed to the development of CancerZilla.
 
-#Support Vector Machine (SVM) classification Technique:
+<h3>Contact</h3>
+For any inquiries or questions, please contact the CancerZilla development team at [infor@cancerzill.com]
 
-
-Support Vector Machine (SVM) is a supervised machine learning algorithm which can be used for both  classification or regression challenges. However, it is mostly used in classification problems. In this algorithm, we plot each data item as a point in n-dimensional space (where n is number of features you have) with the value of each feature being the value of a particular coordinate. Then, we perform classification by finding the hyper-plane that differentiate the two classes very well
