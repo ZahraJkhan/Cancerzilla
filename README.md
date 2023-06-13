@@ -65,7 +65,7 @@ Access the CancerZilla application by opening your web browser and navigating to
 This project is licensed under the MIT License.
 
 <h3>Acknowledgments</h3>
-We would like to express our gratitude to the open-source community for providing valuable resources and libraries that contributed to the development of CancerZilla.
+I would like to express our gratitude to the open-source community for providing valuable resources and libraries that contributed to the development of CancerZilla.
 
 <h3>Contact</h3>
 For any inquiries or questions, please contact the CancerZilla development team at [infor@cancerzill.com]
